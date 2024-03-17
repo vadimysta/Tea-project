@@ -1,0 +1,45 @@
+.top {
+    background: url("../../img/Header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.top-inner {
+   min-height: 500px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.top-title {
+    font-family: Cormorant;
+    color: $white;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    max-width: 789px;
+}
+
+.top-text {
+    font-family: Cormorant;
+    color: $white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    max-width: 557px;
+}
+
+.blockquote-text {
+    max-width: 704px;
+    color: $black;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.blockquote-span {
+    background: $light-background;
+}
