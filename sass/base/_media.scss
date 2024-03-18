@@ -19,6 +19,14 @@
         margin-top: 120px;
         margin-bottom: 135px;
     }
+
+    .varieties-list {
+        gap: 0;
+    }
+
+    .varieties {
+        margin-bottom: 120px;
+    }
 }
 
 @media (max-width: 860px) {
@@ -47,6 +55,21 @@
     .blockquote-text {
         max-width: 640px;
     }
+
+    .varieties-list {
+        gap: 0 6px;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+
+    .varieties .varieties-image {
+        max-width: 190px;
+        
+    }
+
+    .varieties-title {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -72,6 +95,14 @@
     .container {
         padding: 0px 10px;
     }
+
+    .varieties {
+        margin-bottom: 60px;
+    }
+
+    .varieties .varieties-image {
+        max-width: 170px;
+    }
 }
 @media (max-width: 360px) {
     .icon-nav-searsh {
@@ -95,5 +126,18 @@
     }
     .top-inner {
         min-height: 367px;
+    }
+
+    .varieties {
+        margin-bottom: 80px;
+    }
+
+    .varieties .varieties-title {
+        font-size: 24px;
+        margin-bottom: 5px;
+    } 
+
+    .varieties .varieties-image {
+        max-width: 120px;
     }
 }
